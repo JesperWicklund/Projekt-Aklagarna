@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact.css">
     <link rel="stylesheet" href="/index.html">
     <link rel="stylesheet" href="aboutUs.html">
     <link rel="stylesheet" href="Contact.html">
     <title>Contact us</title>
 </head>
 <body>
+      <header><h1>ÅkLagarna</h1></header>
+
     <nav class="menu">
         <ul class="menu__list">
             <li><a href="/index.html">HOME</a></li>
@@ -20,33 +23,32 @@
       <div class="main-container__form-box">
         <h4 class="main-container__headlineTeam">CONTACT US</h4> 
         <form action="eventform">
-          <label for="Namn">NAME</label> <br />
-          <input type="text" placeholder="Name" id="Name" /> <br />
+          <label for="Namn">NAME</label> 
+          <input type="text" placeholder="Name" id="Name" /> 
 
           <label for="Mail">EMAIL</label> <br />
-          <input type="Mail" placeholder="Email" id="Mail"/> <br />
+          <input type="Mail" placeholder="Email" id="Mail"/> 
 
-          <label for="Mail">REGISTRATION PLATENUMBER</label> <br />
+          <label for="Mail">REGISTRATION PLATENUMBER</label>
           <input type="Registration platenumber" placeholder="Registration platenumber" id="Registration-platenumber"/> <br />
 
-          <label for="Mail">PHONENUMBER</label> <br />
-          <input type="Mail" placeholder="Phonenumber" id="Phonenumber"/> <br />
+          <label for="Mail">PHONENUMBER</label>
+          <input type="Mail" placeholder="Phonenumber" id="Phonenumber"/> 
           
 
-          <label for="Message">MESSAGE</label> <br />
+          <label for="Message">MESSAGE</label>
           <textarea
             name="Message"
             placeholder="Write Here!"
             cols="100"
             rows="14"
             id="Message"
-          ></textarea><br>
-          <input type="button" value="SEND" /><br />
+          ></textarea>
+          <button class="submit-btn">Submit</button>
        
       </div>
 
-      <footer><h4>Info@åkLagarna.se</h3>
-        <h4>Telefon: 0712345678</h4>
+      <footer><h3>Info@åkLagarna.se <br> Telefon: 0712345678</h3>
 </footer>
     
 </body>
