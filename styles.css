@@ -1,0 +1,10 @@
+section img {
+    height: 50%;
+    width: 50%;
+    
+}
+.main-container__image{
+    display: flex;
+    width: 50%;
+    height: 50%
+}
