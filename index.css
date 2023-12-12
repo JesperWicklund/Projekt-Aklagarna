@@ -51,11 +51,16 @@ h1 {
 /* Body */
 .Image__Car{
     max-width: 400px;
+    
+
 }
 img{
     width: 400px;
     height: 300px;
     border-radius: 20px;
+    box-shadow: 20px 20px 20px 2px;
+    margin-bottom: 30px;
+    
 }
 .container1{
     display: flex;
@@ -70,6 +75,7 @@ img{
     justify-content: center;
     gap: 40px;
     margin: 50px 0 50px 0; 
+    
 }
 p{
     padding: 5px 0 0 10px;
