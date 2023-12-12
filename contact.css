@@ -18,9 +18,9 @@ header {
 }
 h1 {
     font-size: 3.5rem;
-    padding-top: 20px;
-    color: yellow;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: yellow; 
 }
 /* Navbar */
 .menu {
@@ -95,8 +95,8 @@ textarea {
     border-radius: 10px;
 }
 .submit-btn{
-    font-size: 1.3rem;
-    padding: 20px;
+    font-size: 1.2rem;
+    padding: 13px;
     border-radius: 10px;
     border: none;
 }
@@ -105,15 +105,8 @@ textarea {
     color: white;
 }
 footer{
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
 }
-
-.main-container__image{
-    display: flex;
-    height: 50%;
-    width: 50%;
-}
-    
 
