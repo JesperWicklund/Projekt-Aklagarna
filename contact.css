@@ -2,29 +2,29 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #3333339c;
+  background-color: #2c2a2a;
 }
-header {
-  background-color: #000000be;
+h1 {
+  background-color: #181717;
   color: #fff;
   text-align: center;
   padding: 10px;
-}
-h1 {
   font-size: 3.5rem;
   padding-top: 30px;
   padding-bottom: 30px;
   color: yellow;
 }
+
 /* Navbar */
 .menu {
+  background-color: #181717;
   text-align: center;
-  margin: 20px 0 20px 0;
 }
 .menu__list {
   list-style: none;
@@ -82,6 +82,8 @@ textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(88, 86, 86);
 }
 input {
   font-size: 1.3rem;
@@ -98,6 +100,7 @@ textarea {
   font-size: 1.2rem;
   padding: 13px;
   border-radius: 10px;
+  width: 100%;
   border: none;
 }
 .submit-btn:hover {
