@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #2c2a2a;
+  background-image: url(./Images/kenny-eliason-ZSz1m4JPDqU-unsplash.jpeg);
+  background-size: cover;
 }
 h1 {
   background-color: #181717;
