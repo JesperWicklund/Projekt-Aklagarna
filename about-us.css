@@ -76,8 +76,7 @@ h4 {
   justify-content: center;
   margin: 20px auto;
   padding: 60px;
-  line-height: 40px;
-  height: 100vh;
+
   max-width: 800px;
   background-color: rgb(44, 40, 40);
   border-radius: 10px;
@@ -107,12 +106,12 @@ footer {
   color: white;
   padding: 10px;
 }
-li{
+li {
   list-style: none;
 }
 @media screen and (max-width: 960px) {
   .main-container__CompanyInfo {
-    margin: 40px; 
+    margin: 40px;
     padding: 70px;
   }
 }
