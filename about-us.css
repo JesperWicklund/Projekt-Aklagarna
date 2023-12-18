@@ -111,6 +111,6 @@ li {
 @media screen and (max-width: 960px) {
   .main-container__CompanyInfo {
     margin: 40px;
-    padding: 70px;
+    padding: 20px;
   }
 }
